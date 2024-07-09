@@ -30,8 +30,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
-
- 
 }
 
 .nav-title{
@@ -52,4 +50,30 @@ nav ul li{
 nav ul a{
     text-decoration: none;
     font-size: 20px;
+}
+/* banner styles */
+.header{
+   background-image: url(../images/developer.png), url(../images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position:top left,bottom right;
+
+.banner-content{
+    width: 580px;
+}
+.banner-grettings{
+    font-size: 45px;
+    font-weight: 600px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-portfolio-pic{
+    width: 480px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
 }
